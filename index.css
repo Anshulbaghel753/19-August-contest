@@ -1,0 +1,49 @@
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    height: 40px;
+    position: sticky;
+    flex-wrap: wrap;
+    
+    
+}
+.left a {
+    text-decoration: none;
+    color: azure;
+    margin-left: 20px;
+}
+
+.right a {
+    text-decoration: none;
+    color: azure;
+    margin-right: 20px;
+}
+
+
+
+.form1{
+  
+    
+    display: flex;
+    flex-direction: column;
+    line-height: 6px;
+    border: 5px solid transparent;
+}
+.name{
+    text-align: left;
+}
+.btn{
+    color: blanchedalmond;
+    background-color: black;
+    
+}
+.list{
+    list-style-type: none;
+    gap: 20px;
+    line-height:25px;
+}
+

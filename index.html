@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <nav class="navbar">
+       
+            <div class="left">
+                <a href="#">Library System</a>
+            </div>
+            <div class="right">
+                <a href="#">Books</a>
+                <a href="#">Register</a>
+                <a href="#">contact us</a>
+                <a href="#">Logout</a>
+            </div>
+        
+    </nav>
+
+    <table  >
+        <h1>Books</h1>
+        <tr class="table-1">
+            <th> Book ID</th>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Genre</th>
+            <th>Availability</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>
+                <ul class="list">
+                <li><a href="#">Book title 1</a></li>
+                <li>Publication date 2000</li>
+                <li>page 350</li>
+                <li>ISBN 2345-1864738753</li>
+            </ul>
+          </td>
+            <td>Auther 1</td>
+            <td>Genre 1</td>
+            <td>Available</td>
+        </tr>
+       
+        <tr>
+            <td>2</td>
+            <td><ul class="list">
+                <li><a href="#">Book title 2</a></li>
+                <li>Publication date 2005</li>
+                <li>page 250</li>
+                <li>ISBN 2345-1864738753</li>
+            </ul></td>
+            <td>Auther 2</td>
+            <td>Genre 2</td>
+            <td> Not-Available</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td><ul class="list">
+                <li><a href="#">Book title 3</a></li>
+                <li>Publication date 2000</li>
+                <li>page 450</li>
+                <li>ISBN 2345-18644738753</li>
+            </ul></td>
+            <td>Auther 3</td>
+            <td>Genre 3</td>
+            <td>Available</td>
+        </tr>
+       
+        
+      
+    </table>
+
+    <form action="" class="form1">
+        <h1>Register</h1>
+        <label for="Name">First Name</label><br>
+        <input type="text" class="name" size="50" placeholder="First Nmar"><br>
+        <label for="Name">Last Name</label><br>
+        <input type="text" class="name" size="50" placeholder="Last Name"><br>
+        <label for="email">Email</label><br>
+        <input type="email" size="50" class="name" placeholder="anshul7534@gmail.com"><br>
+        <label for="date" class="name">Date Of Birth</label><br>
+        <input type="date" size="50" class="name"><br>
+        <label for="age" class="name">Age</label><br>
+        <input type="number" min="5" max="100" size="100" class="name" placeholder="number"><br>
+        <label for="Password" class="name">Password</label><br>
+        <input type="password" class="name" placeholder="Password" size="50" id="password" required><br>
+        <label for="ConfirmPassword" class="name"> Confirm Password</label><br>
+        <input type="password" placeholder="Confirm Password"  class="name" size="50" id="confirm_password" required><br>
+        <button class="btn">Register</button>
+    </form>
+</body>
+</html>
